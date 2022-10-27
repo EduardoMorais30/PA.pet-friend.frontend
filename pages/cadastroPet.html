@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/cadastroPet/style.css">
+    <link rel="stylesheet" href="/css/header-footer/headerCss.css">
+    <link rel="stylesheet" href="/css/header-footer/footerCss.css">
+    <title>Cadastrar Pet</title>
+</head>
+<body>
+<header>
+    <header>
+        <div id="cabecalho">
+            <header>
+                <nav>
+                    <ul class="main_menu">
+                        <li><a href="/pages/homePage.html">Home</a></li>
+                        <li><a href="#">Quem somos</a></li>
+                        <li><a href="#">Cadastrar Pet</a></li>
+                        <li><a href="#">Quero adotar</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+        </div>
+    </header>
+</header>
+
+<main>
+    <h1>O que você deseja colocar para adoção ?</h1>
+
+    <form action="">
+        <section class="box_medio">
+            <label for="input_nome">Nome do Pet:</label>
+            <input id="input_nome" type="text" placeholder="" required maxlength="25">
+        </section>
+
+        <div class="container">
+
+            <section class="box_pequeno">
+                <label for="idade">Idade:</label>
+                <input id="idade" type="text" placeholder="" required maxlength="2">
+            </section>
+
+            <section class="box_pequeno">
+                <label for="genero">Sexo:</label>
+                <select id="genero" required>
+                    <option value></option>
+                    <option value="Macho">Macho</option>
+                    <option value="Fêmea">Fêmea</option>
+                </select>
+            </section>
+
+            <section class="box_pequeno">
+                <label for="adulto-filhote">Adulto/Filhote:</label>
+                <select id="adulto-filhote" required>
+                    <option value></option>
+                    <option value="Adulto">Adulto</option>
+                    <option value="Filhote">Filhote</option>
+                </select>
+            </section>
+
+            <section class="box_pequeno">
+                <label for="tipo_pet">Espécie:</label>
+                <select id="tipo_pet" required>
+                    <option value></option>
+                    <option value="Cachorro">Cachorro</option>
+                    <option value="Gato">Gato</option>
+                    <option value="Passaro">Passaro</option>
+
+                </select>
+            </section>
+
+        </div>
+
+        <div class="container">
+
+            <section class="box_pequeno">
+                <label for="porte">Porte:</label>
+                <select id="porte" required>
+                    <option value></option>
+                    <option value="Pequeno">Pequeno</option>
+                    <option value="Medio">Médio</option>
+                    <option value="Grande">Grande</option>
+                </select>
+            </section>
+
+            <section class="box_pequeno">
+                <label for="cidade">Cidade:</label>
+                <input id="cidade" type="text" placeholder="" required>
+            </section>
+
+            <section class="box_pequeno">
+                <label for="estado">Estado:</label>
+                <select id="estado" required>
+                    <option value></option>
+                    <option value="AC">AC</option>
+                    <option value="AL">AL</option>
+                    <option value="AP">AP</option>
+                    <option value="AM">AM</option>
+                    <option value="BA">BA</option>
+                    <option value="CE">CE</option>
+                    <option value="DF">DF</option>
+                    <option value="ES">ES</option>
+                    <option value="GO">GO</option>
+                    <option value="MA">MA</option>
+                    <option value="MT">MT</option>
+                    <option value="MS">MS</option>
+                    <option value="MG">MG</option>
+                    <option value="PA">PA</option>
+                    <option value="PB">PB</option>
+                    <option value="PR">PR</option>
+                    <option value="PE">PE</option>
+                    <option value="PI">PI</option>
+                    <option value="PE">RJ</option>
+                    <option value="RN">RN</option>
+                    <option value="RS">RS</option>
+                    <option value="RO">RO</option>
+                    <option value="RR">RR</option>
+                    <option value="SC">SC</option>
+                    <option value="SP">SP</option>
+                    <option value="SE">SE</option>
+                    <option value="TO">TO</option>
+                </select>
+            </section>
+
+
+        </div>
+
+        <section class="box_grande">
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao" maxlength="255"></textarea>
+        </section>
+
+
+        <section class="box_medio">
+            <label for="telefone">Telefone:</label>
+            <input id="telefone" type="text" placeholder="(00) 00000-0000" required maxlength="15">
+        </section>
+
+
+        <section class="box_grande">
+            <label for="enviar">Enviar Fotos:</label>
+            <input id="enviar" type="file" multiple>
+        </section>
+
+        <section id="cont_termos">
+            <input id="termos" type="checkbox" required value="checked">
+            <label id="label_termos" for="termos">Concordo com os termos e condições </label>
+        </section>
+
+        <button id="publicar">Publicar</button>
+    </form>
+</main>
+
+<footer>
+    <div class="conteiner-footer">
+        <div class="row-footer">
+
+            <div class="footer-col">
+                <h4>Endereço</h4>
+                <ul>
+                    <li> R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Contatos</h4>
+                <ul>
+                    <li>petfriend.br@gmail.com</li>
+                    <li>+55 (31) 99129-2177</li>
+                    <li>+55 (31) 97339-8362 +55</li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Socials</h4>
+                <ul>
+                    <li><a href="https://www.instagram.com/">Instagram</a></li>
+                    <li><a href="https://web.facebook.com/?_rdc=1&_rdr">Facebook</a></li>
+                    <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+                </ul>
+            </div>
+
+            <div class="form-sub">
+                <form>
+                    <input type="email" placeholder="Digite o seu email" required>
+                    <button>Login</button>
+                </form>
+
+                <div class="medias-socias">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                    <a href=""><i class="fa fa-youtube"></i></a>
+                    <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
