@@ -17,3 +17,10 @@ Data: 26/10/2022
 Autor: Eduardo
 Etapa: 3
 ```
+
+## Estrutura de pastas do projeto
+
+- images: Imagens utilizadas no projeto.
+- pages: Contém todas as pages de html (As telas do frontend)
+- css: Contém todos os arquivos css do projeto
+- readme.md: Arquivo com as informações do projeto.
