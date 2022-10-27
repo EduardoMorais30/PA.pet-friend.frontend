@@ -9,7 +9,7 @@ Autor:
 Etapa: 
 ```
 
-**Exemplo:**
+### **Exemplo:**
 
 ```
 Descrição: Inclusão do arquivo da home page.
@@ -24,3 +24,14 @@ Etapa: 3
 - pages: Contém todas as pages de html (As telas do frontend)
 - css: Contém todos os arquivos css do projeto
 - readme.md: Arquivo com as informações do projeto.
+
+
+## Padrão de branch
+
+[nome integrante]-etapa[numero etapa]-[data ddmmyyyyy]
+
+### **Exemplo:**
+
+```
+eduardomorais-etapa3-26102022
+```
