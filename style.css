@@ -1,0 +1,179 @@
+header {
+    color: #1A4E8D;
+    font-size: 50px;
+    background-color: rgb(91, 209, 215);
+
+    /*Menu*/
+}
+
+.main_menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    line-height: 32px;
+    background-color: rgb(91, 209, 215);
+}
+
+ul.mainmenu {
+    margin-top: 15px;
+}
+
+.main_menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+}
+
+.main_menu a {
+    text-decoration: none;
+    color: #1A4E8D;
+    padding: 8px;
+    font-variant: small-caps;
+}
+
+.main_menu a:houver {
+    color: #1A4E8D;
+}
+
+
+
+h2,
+h3,
+h5 {
+    color: #1A4E8D;
+    font-size: 35px;
+}
+
+h1,
+h4,
+h6 {
+    color: #1A4E8D;
+    font-size: 100px;
+
+}
+
+#imagemDestaque {
+    background-color: rgb(91, 209, 215);
+}
+
+body {
+    background-color: rgb(91, 209, 215);
+}
+
+li {
+    color: #1A4E8D;
+}
+
+
+footer div{
+    background-color: white;
+    
+    
+}
+footer h4{
+    color: #1A4E8D;
+    font-size: 36px;;
+}
+
+.conteiner-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-col {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.footer-col ul{
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin: 10px 0;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #1A4E8D;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+    color: #1A4E8D;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+.footer-col .medias-socias{
+    margin-top: 30px;
+}
+.footer-col .medias-socias a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin: 0 10px 10px 0;
+    text-decoration: none;
+    border-radius: 50%;
+    color: red;
+    border: 1px solid red;
+    transition: all 0.5s ease;
+}
+.footer-col .medias-socias a i{
+    font-size: 20px;
+}
+.footer-col .medias-socias a:hover{
+    color: red;
+    background-color: blue;
+}
+
+.footer-col .form-sub input{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(91, 209, 215);;
+}
+.footer-col.form-sub input::placeholder{
+    color: white;
+}
+.footer-col .form-sub button{
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 17px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(91, 209, 215);
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: white;
+}
+
+
