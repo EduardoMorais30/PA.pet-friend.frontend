@@ -1,6 +1,6 @@
 * {
-    --header_color: rgb(172,213,222);
-    --text_color: rgb(26, 78, 141)
+    --header_color: #ACD5DE;
+    --text_color: rgb(26, 78, 141);
 }
 
 body {
@@ -11,8 +11,14 @@ header {
     color: var(--header_color);
     width: 100%;
     height: 2%;
-    background-color: rgb(91, 209, 215);
+    background-color: var(--header_color);
     margin: 0;
+    font-family: poppins-semibold, poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text_color);
 }
 
 #cabecalho {
@@ -27,18 +33,26 @@ header {
 
 #links li {
     display: inline-block;
+
+}
+
+#links li a {
     font-size: 15px;
     padding: 5px 20px;
 }
 
-#links li:hover{
-    background-color: var(--text_color);
-    transition: 0.2s;
-    border-radius: 50px;
+#links li a:hover{
     color: white;
-
+    background-color: var(--text_color);
+    transition: 0.5s;
+    border-radius: 80px;
 }
 
 #logo {
-    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+
+#img-logo {
+    max-height: 50px;
 }
