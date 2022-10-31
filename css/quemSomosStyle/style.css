@@ -27,7 +27,17 @@ header{
     text-decoration: none;
 }
 .logo{
-    width: 50px;
+    height: 50px;
+    width: 55px;
+    margin-top: -70px;
+}
+#textoLogo{
+    text-align: center;
+    color: #1A4E8D;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 body{
     background-color: #ACD5DE;
@@ -36,7 +46,8 @@ body h1,h2,h3,p{
     color: #1A4E8D
 }
 .tituloPrincipal{
-    margin-left: 90px;;
+    margin-left: 90px;
+    margin-top: 30px;
 }
 h1{
     font-family: 'Poppins', sans-serif;
@@ -76,8 +87,8 @@ nav{
     align-items: center;
     background-color: #ACD5DE;
     justify-content: space-between;
-    padding:  0px 20px;
-    padding-top: 5px;
+    padding:  20px 20px;
+    margin-top: 20px;;
     
 }
 nav div h1{
@@ -92,7 +103,7 @@ li {
     color: #1A4E8D;
     text-decoration: none;
     font-weight: bold;
-    padding: 0 20px;
+    padding: 10px 25px;
 
 }
 li:hover{
@@ -100,6 +111,7 @@ li:hover{
     border-radius: 70px;
     border-top: 5px;
     border-width: 5px;
+    background-size: auto;
     background-color: #1A4E8D;
 }
 .container{
@@ -111,4 +123,31 @@ li:hover{
 p{
     margin-left: 150px;
     font-family: 'Poppins', sans-serif;
+} 
+button{
+    all: unset;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 40%;
+    height: 20px;
+    margin-right: 150px;
+    margin-left: 150px;
+    padding: 20px;
+    padding-bottom: 25px;
+    background-color:#1A4E8D;
+    color: whitesmoke;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 300px;
+}
+button:hover{
+    background-color: #1a4e8da4 ;
+}
+.iconUser{
+    width: 20px;
+}
+footer{
+    width: auto;
+    background-color: white;
 }
