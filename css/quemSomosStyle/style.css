@@ -170,7 +170,7 @@ footer{
 .rodape{
     display: inline-block;
     margin-left: 150px;
-    margin-bottom: 130px;
+    margin-bottom: 100px;
     margin-top: 30px;
 
 }
@@ -198,5 +198,4 @@ footer{
     font-weight: bold;
     margin-left: 320px;
     padding-bottom: 50px;
-    font-family: 'Poppins', sans-serif;
 }
