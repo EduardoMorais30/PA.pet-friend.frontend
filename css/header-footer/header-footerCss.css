@@ -1,44 +1,129 @@
 * {
-    --header_color: rgb(172,213,222);
-    --text_color: rgb(26, 78, 141)
+    --header_color: #ACD5DE;
+    --text_color: rgb(26, 78, 141);
 }
 
 body {
     margin: 0;
 }
 
+/*Header*/
+
 header {
-    color: var(--header_color);
     width: 100%;
     height: 2%;
-    background-color: rgb(91, 209, 215);
+    background-color: var(--header_color);
     margin: 0;
+    font-family: poppins-semibold, poppins, sans-serif;
+    min-width: 900px;
 }
 
-#cabecalho {
+header a {
+    text-decoration: none;
+    color: var(--text_color);
+}
+
+header #cabecalho {
     display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
 
-#links {
+header #links {
     padding-right: 20px;
 }
 
-#links li {
+header #links li {
     display: inline-block;
+
+}
+
+header #links li a {
     font-size: 15px;
     padding: 5px 20px;
 }
 
-#links li:hover{
-    background-color: var(--text_color);
-    transition: 0.2s;
-    border-radius: 50px;
+header #links li a:hover{
     color: white;
-
+    background-color: var(--text_color);
+    transition: 0.5s;
+    border-radius: 80px;
 }
 
-#logo {
+header #logo {
+    display: flex;
+    align-items: center;
+}
+
+header #img-logo {
+    max-height: 40px;
+    padding-right: 10px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    height: 2%;
+    background-color: white;
+    font-family: poppins-semibold, poppins, sans-serif;
+    border-top: 2px solid var(--main_color);
+    margin: 15px 0 0;
+    color: var(--text_color);
+    min-width: 900px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--text_color);
+}
+
+footer .conteiner-footer {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer .footer-col{
+    width: calc(90% / 4);
     display: inline-block;
+    vertical-align: top;
+    margin: 20px auto;
+    height: 175px;
+}
+
+footer h4 {
+    margin-bottom: 0;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    padding: 4px;
+    list-style: none;
+}
+footer #logo-foot{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer #logo-foot div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer #logo-foot i {
+    font-size: 40px;
+    padding: 15px 8px;
+}
+
+footer #endereco, #contatos, #sociais {
+    width: 80%;
+    min-width: 200px;
+
 }

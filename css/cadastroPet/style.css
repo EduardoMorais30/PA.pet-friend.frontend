@@ -1,9 +1,6 @@
 :root {
-    --main_color: rgb(26, 78, 141);
-}
-
-* {
-    font-family: "Work Sans", serif;
+    --main_color: #1A4E8D;
+    --sec_color: #ACD5DE;
 }
 
 main {
@@ -15,6 +12,8 @@ main {
 
 body {
     margin: 0;
+    font-family: "Work Sans", serif;
+
 }
 
 @media (max-width: 1400px) {
