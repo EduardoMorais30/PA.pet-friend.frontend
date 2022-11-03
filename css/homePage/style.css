@@ -3,6 +3,8 @@
     --text_color: rgb(26, 78, 141);
 }
 
+/*Body */
+
 
 body {
     margin: 0px;
@@ -28,24 +30,16 @@ h3 {
 
 }
 
-/* .flex-imagemDestaque {
-    display: block;
-    width: 100%;
-    margin-left: 20px;
-    margin-right: 20px;
-    align-items: center;
-} */
-
 .flex-imagemDestaque {
     position: relative;
     display: flex;
     justify-content: center;
-
 }
 
 .flex-CachoroeGato {
     display: flex;
 }
+
 .flex-imagemDestaque .btn {
     position: absolute;
     top: 45%;
@@ -53,27 +47,56 @@ h3 {
 }
 
 
-/* .flex-container{ 
+.flex-containerPets {
     display: flex;
-    flex-direction: column;
-    flex-flow: row wrap;
+    flex-direction: row;
+    background-color: #ACD5DE;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+   
 }
-@media (max-width: 800px) {
-    .flex-container {
-      flex-direction: row;
-    }
-  }
 
-.flex-container > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 30px;
+
+.flex-containerPets>div {
+    display: flex;
+    background-color: #ACD5DE;
+    width: 350px;
+    margin: 25px;
     text-align: center;
-    line-height:100px;
-    font-size: 50px;
-  } */
+    line-height: 30px;
+    font-size: 25px;
+    color: #1A4E8D;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+.conteiner-novosPeludos{
+    
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #ACD5DE;
+        justify-content: center;
+        align-items: baseline;
+       
+    }
+.container-novosPeludos >div {
+        display: flex;
+        background-color: #ACD5DE;
+        width: 350px;
+        margin: 25px;
+        text-align: center;
+        line-height: 30px;
+}
+
+
+
+
+
+
+
 
 section div {
     display: inline-block;
@@ -93,11 +116,8 @@ section div p img {
     margin-bottom: 10px;
 }
 
-li {
-    color: #1A4E8D;
-}
-
-button, input {
+button,
+input {
     all: unset;
     cursor: pointer;
     text-align: center;
@@ -127,8 +147,6 @@ button:hover {
     width: 20px;
     color: white;
 }
-
-
 
 
 /*Footer*/
