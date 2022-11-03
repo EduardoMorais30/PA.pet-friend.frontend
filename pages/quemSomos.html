@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem somos</title>
     <link rel="stylesheet" href="/css/quemSomosStyle/style.css" />
+    <link href='https://css.gg/menu.css' rel='stylesheet'>
+    <script src="/js/quemSomos.js"></script>
 </head>
-<body>
+
 <header>
     <nav>
         <div class="containerLogo">
@@ -15,7 +17,7 @@
                 <a id="textoLogo" href="/pages/homePage.html">PetFriend</a>
             </div>
         </div>
-
+        
         <div class="menu">
             <ul>
                 <li><a href="/pages/homePage.html">Home</a></li>
@@ -26,17 +28,29 @@
                 <li class="login"><a href="#">Login</a></li><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="IconUser" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-            </svg>
+                </svg>
             </ul>
         </div>
     </nav>
+    <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><i onclick="menuShow()" class="gg-menu"></i></button>
+    </div>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="/pages/homePage.html">Home</a></li>
+            <li><a href="/pages/quemSomos.html">Quem somos</a></li>
+            <li><a href="/pages/cadastroPet.html">Cadastrar Pet</a></li>
+            <li><a href="#">Quero Adotar</a></li>
+            <li><a href="/pages/contatopage.html">Contato</a></li>
+            <li class="login"><a href="#">Login</a></li>
+        </ul>
+    </div>
 </header>
+<body>
 
-<div class="tituloPrincipal">
-    <h1>Sobre nós...</h1>
-</div>
+<h1>Sobre nós...</h1>
 
-<h2>Somos uma plataforma sem fins <br>lucrativos para adoção de cães e gatos <br>abandonados. O nosso foco é<br>proporcionar aos animais a proteção de uma família.</h2>
+<h2>Somos uma plataforma sem fins lucrativos para adoção de cães e gatos abandonados. O nosso foco é proporcionar aos animais a proteção de uma família.</h2>
 
 <h3>Nossa história...</h3>
 
@@ -52,11 +66,11 @@
 </body>
     <footer>
         <div class="ContainerImg">
-            <img class="logo2Img" alt="Logomarca" width="170" height="120" src="/images/quemSomosImg/logo2.png"><br><br><br><br><br>
+            <img id="logo2Img" alt="Logomarca" width="170" height="120" src="/images/quemSomosImg/logo2.png"><br><br><br><br><br>
         </div>
         <div>
             <ul class="rodape">
-                <li>Endereco</li>
+                <li>Endereço</li>
                 <p class="endereco">R.Dom José Gaspar, 500 -<br> Coração Eucarístico, Belo<br> Horizonte _MG, 30535-901</p>
             </ul>
             <ul class="rodape">

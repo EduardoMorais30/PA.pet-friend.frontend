@@ -50,6 +50,24 @@ header{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.checkbtn{
+    float: right;
+    font-size: 200px;
+    color: #1A4E8D;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 body{
     background-color: #ACD5DE;
 }
@@ -198,4 +216,114 @@ footer{
     font-weight: bold;
     margin-left: 320px;
     padding-bottom: 50px;
+}
+@media (max-width: 950px) {
+    nav ul{
+        display: none;
+    }
+}
+@media (max-width: 900px){
+    .containerLogo{
+        height: 20px;
+        width: 20px;
+        margin-top: 20px;
+    }
+    .IconUser{
+        display: none;
+    }
+    li:hover{
+        background-color: #1A4E8D;
+    }
+    h1{
+        font-size: 20px;
+        margin-left: -20px;
+        padding-bottom: 20px;
+    }
+    body h2{
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: left;
+
+    }
+    body h3{
+        margin-left: 30px;
+        font-size: 20px;
+        margin-right: 0;
+    }
+    body p{
+        margin-left: 30px;
+        font-size: 15px;
+        margin-right: 100px;
+    }
+    .BodyImg{
+        height: 500px;
+        width: 400px;
+        margin-top: 30px;
+        margin-left: 50px;
+        padding-bottom: 30px;
+    }
+    .container{
+        display: inline-block;
+    }
+    button{
+        margin-bottom: 50px;
+    }
+    .logo2Img{
+        margin-left: 100px ;
+    }
+    footer{
+        display: none;
+    }
+}
+@media (max-width: 1100px) {
+    #textoLogo{
+        display: none;
+    }
+}
+@media (max-width: 858px){
+
+    #textoLogo{
+        display: flex;
+        float: right;
+    }
+    ul:hover{
+        text-color: #1a658d;
+    }
+    ul{
+        display: flex;
+        padding-top: 80px;
+        position: absolute;
+        height: 100vh;
+        background-color: #ACD5DE;
+        top: 80px;
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .mobile-menu-icon{
+        display: flex;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        color: #1A4E8D;
+        margin-left: 400px;
+        margin-top: -70px;
+        cursor: pointer;
+    }
+    .open{
+        display: block;
+    }
+    .mobile-menu ul{
+        text-align: center;
+        background-color: #ACD5DE;
+        margin-left: 260px;
+        flex-direction: column;
+        display: flex;
+        padding-bottom: 0px;
+    }
+    .mobile-menu ul li{
+        background: transparent;
+    }
 }
