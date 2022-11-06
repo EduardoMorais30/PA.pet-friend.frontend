@@ -20,7 +20,6 @@ header {
     background-color: var(--header_color);
     margin: 0;
     font-family: poppins-semibold, poppins, sans-serif;
-    min-width: 900px;
 }
 
 header a {
@@ -184,7 +183,6 @@ footer {
     border-top: 2px solid var(--main_color);
     margin: 15px 0 0;
     color: var(--text_color);
-    min-width: 900px;
 }
 
 footer a {
@@ -220,19 +218,19 @@ footer ul li {
     list-style: none;
 }
 
-footer #logo-foot {
+footer .logo-foot {
     display: flex;
     flex-wrap: wrap;
 }
 
-footer #logo-foot div {
+footer .logo-foot div {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
 }
 
-footer #logo-foot i {
+footer .logo-foot i {
     font-size: 40px;
     padding: 15px 8px;
 }
@@ -240,5 +238,59 @@ footer #logo-foot i {
 footer #endereco, #contatos, #sociais {
     width: 80%;
     min-width: 200px;
+}
 
+/*Mobile Footer*/
+
+footer .coll-footer {
+    display: none;
+}
+
+@media (max-width: 950px) {
+}
+
+@media (max-width: 858px) {
+
+    footer .conteiner-footer {
+        display: none;
+    }
+    footer .coll-footer{
+        display: block;
+    }
+
+    footer .footer-row {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin: 20px auto;
+        height: 175px;
+    }
+
+    footer .collapsible {
+        color: white;
+        cursor: pointer;
+        padding: 0;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        outline: none;
+        font-size: 25px;
+        display: block;
+        border: 0;
+        border-bottom: lightgrey solid 1px;
+        background-color: var(--main_color);
+        border-radius: 80px;
+    }
+
+    footer .content {
+        padding: 0 18px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    }
+
+    footer .active {
+        border: 0;
+    }
 }

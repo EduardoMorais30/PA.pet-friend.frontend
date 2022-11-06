@@ -23,9 +23,9 @@ body {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 858px) {
     main {
-        width: 100%;
+        width: 95%;
         display: block;
     }
 }
@@ -43,7 +43,7 @@ form {
     display: inline-block;
     margin: auto;
     width: 100%;
-    min-width: 600px;
+    min-width: 400px;
 }
 
 div {
