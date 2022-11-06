@@ -24,12 +24,12 @@
                 <li><a href="/pages/homePage.html">Home</a></li>
                 <li><a href="/pages/quemSomos.html">Quem somos</a></li>
                 <li><a href="/pages/cadastroPet.html">Cadastrar Pet</a></li>
-                <li><a href="#">Quero Adotar</a></li>
+                <li><a href="/pages/login.html">Quero Adotar</a></li>
                 <li><a href="/pages/contatopage.html">Contato</a></li>
-                <li class="login"><a href="#">Login</a></li><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="IconUser" viewBox="0 0 16 16">
+                <li class="login"><a href="/pages/login.html">Login</a></li><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="IconUser" viewBox="0 0 16 16">
                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                 <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-            </svg>
+                </svg>
             </ul>
         </div>
     </nav>
@@ -41,21 +41,21 @@
             <li><a href="/pages/homePage.html">Home</a></li>
             <li><a href="/pages/quemSomos.html">Quem somos</a></li>
             <li><a href="/pages/cadastroPet.html">Cadastrar Pet</a></li>
-            <li><a href="#">Quero Adotar</a></li>
+            <li><a href="/pages/queroAdotar.html">Quero Adotar</a></li>
             <li><a href="/pages/contatopage.html">Contato</a></li>
-            <li class="login"><a href="#">Login</a></li>
+            <li class="login"><a href="/pages/login.html">Login</a></li>
         </ul>
     </div>
 </header>
 
 <body>
-<h1>Adote agora o seu melhor amigo ou amiga...</h1>
-<form action="#" id="form">
+    <h1>Adote agora o seu melhor amigo ou amiga...</h1>
+    <form action="#" id="form">
 
     <section>
         <label>
             <b>Todas as espécies</b><br>
-            <select name="speed" id="speed" style=" ">
+            <select name="speed" id="speed">
                 <option desable>Selecione</option>
                 <option>Cães</option>
                 <option>Gatos</option>
@@ -64,7 +64,7 @@
         </label>
         <label>
             <b>Selecione o gênero</b><br>
-            <select name="files" id="files" style=" ">
+            <select name="files" id="files">
                 <option desable> Selecione </option>
                 <option value="HD">Macho</option>
                 <option value="Full HD">Fêmea</option>
@@ -72,7 +72,7 @@
         </label>
         <label>
             <b> Selecione o porte </b><br>
-            <select name="number" id="number" style=" ">
+            <select name="number" id="number">
                 <option desable> Selecione </option>
                 <option>Muito pequeno</option>
                 <option>Pequeno</option>
@@ -85,67 +85,72 @@
             <b> Selecione o estado </b><br>
             <select name="salutation">
                 <option desable selected>Selecione</option>
-                <option>Intelbras</option>
-                <option>Hikvision</option>
-                <option>Outras</option>
+                <option value="DF">DF</option>
+                <option value="MG">MG</option>
+                <option value="SP">SP</option>
+                <option value=""RJ>RJ</option>
+            
             </select>
         </label>
         <label>
             <b> Selecione a cidade </b><br>
             <select name="salutation" id="salutation">
                 <option desable selected>Selecione</option>
-                <option>Intelbras</option>
-                <option>Hikvision</option>
-                <option>Outras</option>
+                <option>Belo Horizonte</option>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Contagem</option>
+                <option>Brasília</option>
+
             </select>
         </label>
     </section><button class="kd-filter-button" id="button1">Filtrar</button>
 </form>
     <div class="container-body-images">
-        <div class="img1"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img2"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px"alt=""></div>
-        <div class="img3"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px"alt=""></div>
-        <div class="img4"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px"alt=""></div>
+        <div class="img1"><img src="/images/queroAdotarImg/bodyImg1.jpeg" width="300" height="200px" alt=""></div>
+        <div class="img2"><img src="/images/queroAdotarImg/bodyImg2.jpeg" width="300" height="200px"alt=""></div>
+        <div class="img3"><img src="/images/queroAdotarImg/bodyImg3.jpeg" width="300" height="200px"alt=""></div>
+        <div class="img4"><img src="/images/queroAdotarImg/bodyImg4.jpeg" width="300" height="200px"alt=""></div>
 
         <div class="blocoTitle1">
             <div class="titleImg1">
-                <p>Maria Firmina</p>
+                <p>Alice</p>
                 <p>BH - Belo Horizonte</p>
             </div>
             <div class="titleImg2">
-                <p>Maria Firmina</p>
+                <p>Dieguinho</p>
                 <p>BH - Belo Horizonte</p>
             </div>
                 <div class="titleImg3">
-                    <p>Maria Firmina</p>
+                    <p>Kagu</p>
                     <p>BH - Belo Horizonte</p>
                 </div>
                 <div class="titleImg4">
-                    <p>Maria Firmina</p>
+                    <p>Varus</p>
                     <p>BH - Belo Horizonte</p>
                 </div>
         </div>
 
-        <div class="img5"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img6"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img7"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img8"><img src="/images/homePage/cachorroegato.jpeg" width="300" height="200px" alt=""></div>
+        <div class="img5"><img src="/images/queroAdotarImg/bodyImg5.jpeg" width="300" height="200px" alt=""></div>
+        <div class="img6"><img src="/images/queroAdotarImg/bodyImg6.jpeg" width="300" height="200px" alt=""></div>
+        <div class="img7"><img src="/images/queroAdotarImg/bodyImg7.jpeg" width="300" height="200px" alt=""></div>
+        <div class="img8"><img src="/images/queroAdotarImg/bodyImg8.jpeg" width="300" height="200px" alt=""></div>
 
         <div class="blocoTitle2">
             <div class="titleImg1">
-                <p>Maria Firmina</p>
+                <p>Drogo</p>
                 <p>BH - Belo Horizonte</p>
             </div>
             <div class="titleImg2">
-                <p>Maria Firmina</p>
+                <p>Milu</p>
                 <p>BH - Belo Horizonte</p>
             </div>
             <div class="titleImg3">
-                <p>Maria Firmina</p>
+                <p>Cass</p>
                 <p>BH - Belo Horizonte</p>
             </div>
             <div class="titleImg4">
-                <p>Maria Firmina</p>
+                <p>Junin</p>
                 <p>BH - Belo Horizonte</p>
             </div>
             </div>
@@ -158,19 +163,19 @@
 
     <div class="blocoTitle3">
         <div class="titleImg1">
-            <p>Maria Firmina</p>
+            <p>Mel</p>
             <p>BH - Belo Horizonte</p>
         </div>
         <div class="titleImg2">
-            <p>Maria Firmina</p>
+            <p>Thor</p>
             <p>BH - Belo Horizonte</p>
         </div>
         <div class="titleImg3">
-            <p>Maria Firmina</p>
+            <p>Meyle</p>
             <p>BH - Belo Horizonte</p>
         </div>
         <div class="titleImg4">
-            <p>Maria Firmina</p>
+            <p>Lucao</p>
             <p>BH - Belo Horizonte</p>
         </div>
     </div>
