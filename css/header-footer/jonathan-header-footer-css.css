@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,500&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none; color: inherit;
+
+}
+header{
+    background-color: #ACD5DE;
+    width: 100%;
+    padding: 0px;
+    padding-top: 5px;
+}
+.logo{
+    height: 50px;
+    width: 55px;
+    margin-top: -40px;
+    margin-left: 20px;
+}
+.iconUser{
+    padding-left: 0px;
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.login{
+    color: #1A4E8D;
+}
+.IconUser{
+    color: #1A4E8D;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+#textoLogo{
+    text-align: center;
+    color: #1A4E8D;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+.mobile-menu-icon{
+    display: none;
+}
+.mobile-menu{
+    display: none;
+}
+.checkbtn{
+    float: right;
+    font-size: 200px;
+    color: #1A4E8D;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.tituloPrincipal{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    align-items: center;
+    background-color: #ACD5DE;
+    justify-content: space-between;
+    padding:  20px 20px;
+    margin-top: 20px;;
+
+}
+nav div h1{
+    color: #1A4E8D;
+}
+nav,ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+li {
+    color: #1A4E8D;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 25px;
+
+}
+li:hover{
+    color: #ffff;
+    border-radius: 70px;
+    border-top: 5px;
+    border-width: 5px;
+    background-size: auto;
+    background-color: #1A4E8D;
+}
+.container{
+    display: flex;
+}
+.logo{
+    display: flex;
+}
+
+
+
+body {
+    background-color: white;
+}
+
+
