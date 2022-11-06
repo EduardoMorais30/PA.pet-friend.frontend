@@ -74,7 +74,7 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
 
 }
-
+/*NOVOS PELUDOS*/
 
 .novosPeludos{
     background-color: white;
@@ -86,23 +86,66 @@ h3 {
     background-color: white;
 
 }
-.conteiner-novosPeludos{
-        display: flex;
-        flex-wrap: wrap;
-        background-color: white;
-        justify-content: center;
-        align-items: baseline;
-       
-    }
-.container-novosPeludos >div {
-        display: flex;
-        background-color: white;
-        width: 350px;
-        margin: 25px;
-        text-align: center;
-        line-height: 30px;
+.container-body-images{
+    background-color: white;
 }
 
+.img1{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 60px;
+    float: left;
+    padding-right: 20px;
+}
+.img2{
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+.img3{
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+.img4{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.titleImg1,.titleImg2,.titleImg3,.titleImg4{
+    display: inline-block;
+    margin-left: 120px;
+    padding-right: 65px;
+    text-align: center;
+    font-size: 15px;
+    color: #1A4E8D;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+.img5{
+    padding-top: 40px;
+    display: inline-block;
+    margin-left: 60px;
+    float: left;
+    padding-right: 20px;
+}
+.img6{
+    padding-top: 40px;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+.img7{
+    padding-top: 40px;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+.img8{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
 
 section div {
     display: inline-block;
@@ -214,7 +257,6 @@ h4{
     text-align: center;
     line-height: 30px;
 }
-
 
 
 
