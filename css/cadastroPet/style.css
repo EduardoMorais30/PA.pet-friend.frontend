@@ -28,6 +28,19 @@ body {
         width: 95%;
         display: block;
     }
+
+    .container {
+        min-height: 200px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .container > section {
+        height: 40%;
+    }
 }
 
 h1 {
@@ -55,7 +68,7 @@ label {
     padding: 3px;
 }
 
-input, select, textarea{
+input, select, textarea {
     padding: 5px 15px;
     background-color: rgba(26, 78, 141, 0.05);
     border-radius: 25px;
@@ -91,14 +104,15 @@ section {
 }
 
 .box_medio {
-    width: 100%;
+    width: 90%;
 }
 
 .box_grande {
     height: 200px;
-    width: 100%;
+    width: 90%;
 }
-.container{
+
+.container {
     width: 100%;
     height: 100px;
 }
@@ -117,20 +131,21 @@ section {
     height: 150px;
     width: 100%;
     background-color: rgba(26, 78, 141, 0.05);
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
     padding: 15px;
 }
 
 #enviar {
     width: 100%;
     background-color: rgba(26, 78, 141, 0.05);
-    text-overflow:ellipsis;
+    text-overflow: ellipsis;
     padding: 15px;
 }
 
 #idade, #cidade {
     width: 60%;
 }
+
 #genero, #adulto-filhote {
     width: 80%;
 }
@@ -143,7 +158,7 @@ section {
     border-radius: 25px;
 }
 
-#cont_termos{
+#cont_termos {
     display: block;
     width: 50%;
     margin: auto;

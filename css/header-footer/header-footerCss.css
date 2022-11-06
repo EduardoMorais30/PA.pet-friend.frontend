@@ -169,7 +169,10 @@ header .mobile-menu {
     }
 
     header .mobile-menu ul li {
+        list-style: initial;
+        text-align: left;
         background: transparent;
+        padding-bottom: 5px;
     }
 }
 
