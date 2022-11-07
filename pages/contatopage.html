@@ -1,37 +1,60 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adoção</title>
-    <link rel="stylesheet" href="/css/contato/contatocss.css">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/cadastroPet/style.css">
     <link rel="stylesheet" href="/css/header-footer/header-footerCss.css">
-    <style>
-        
-    </style>
+    <link rel="icon" type="image/x-icon" href="/images/header-footer/favicon.ico">
+    <link rel="stylesheet" href="/css/contato/contatocss.css">
+
+    <script src="/js/header-footer.js"></script>
+    <script src="https://kit.fontawesome.com/5b94898184.js" crossorigin="anonymous"></script>
+    <title>Cadastrar Pet</title>
 </head>
 <body>
     <header>
-        <div id="cabecalho">
-            <div id="logo">
-                <img id="img-logo" src="/images/header-footer/logo.png" alt="Logo">
-                <a href="#">PetFriend</a>
-            </div>
-            <div id="links">
-                <nav>
-                    <ul class="main_menu">
-                        <li><a href="/pages/homePage.html">Home</a></li>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">Cadastrar Pet</a></li>
-                        <li><a href="#">Quero adotar</a></li>
-                        <li><a href="#">Contato</a></li>
+        <header>
+            <div id="cabecalho">
+                <div id="logo">
+                    <img id="img-logo" src="/images/header-footer/logo.png" alt="Logo">
+                    <a href="homePage.html">PetFriend</a>
+                </div>
+                <div id="links">
+                    <nav>
+                        <ul class="main_menu">
+                            <li><a href="homePage.html">Home</a></li>
+                            <li><a href="quemSomos.html">Quem somos</a></li>
+                            <li><a href="cadastroPet.html">Cadastrar Pet</a></li>
+                            <li><a href="queroAdotar.html">Quero adotar</a></li>
+                            <li><a href="contatopage.html">Contato</a></li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="IconUser" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                            </svg>
+                            <li class="login"><a href="#">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="mobile-menu-icon">
+                    <button onclick="menuShow()"><i class="fa-solid fa-bars"></i><i onclick="menuShow()" class="gg-menu"></i></button>
+                </div>
+                <div class="mobile-menu">
+                    <ul>
+                        <li><a href="homePage.html">Home</a></li>
+                        <li><a href="quemSomos.html">Quem somos</a></li>
+                        <li><a href="cadastroPet.html">Cadastrar Pet</a></li>
+                        <li><a href="queroAdotar.html">Quero Adotar</a></li>
+                        <li><a href="contatopage.html">Contato</a></li>
+                        <li class="login"><a href="#">Login</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
-</header>
-   
+    
+        </header>
+    </header>
+    
     
 <section id="divconjuntos">
     
@@ -71,7 +94,7 @@
     <footer>
         <div class="conteiner-footer">
             <div class="footer-col">
-                <div id="logo-foot">
+                <div class="logo-foot">
                     <div>
                         <img id="img-logo-foot" src="/images/header-footer/logo.png" alt="Logo">
                         <a href="#">PetFriend</a>
@@ -123,15 +146,57 @@
                     </ul>
                 </div>
             </div>
+        </div>
     
-            <!--            <div class="form-sub">-->
-            <!--                <form>-->
-            <!--                    <label for="mail_footer"></label>-->
-            <!--                    <input id="mail_footer" type="email" placeholder="Digite o seu email" required>-->
-            <!--                    <button>Login</button>-->
-            <!--                </form>-->
+        <div class="coll-footer">
+            <div class="footer-row">
+                <div class="logo-foot">
+                    <div>
+                        <img id="coll-img-logo-foot" src="/images/header-footer/logo.png" alt="Logo">
+                        <a href="#">PetFriend</a>
+                    </div>
+                    <div>
+                        <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+    
+            <button class="collapsible">Endereço</button>
+            <div class="content">
+                <ul>
+                    <li> R. Dom José Gaspar, 500 - Coração Eucarístico, Belo Horizonte - MG, 30535-901</li>
+                </ul>
+            </div>
+    
+            <button class="collapsible">Contatos</button>
+            <div class="content">
+                <ul>
+                    <li>
+                        <a href="mailto:petfriend.br@gmail.com"><i class="fa-solid fa-envelope"></i>
+                            petfriend.br@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="tel:+5531991292177"><i class="fa-solid fa-phone"></i> +55 (31) 99129-2177</a>
+                    </li>
+                </ul>
+            </div>
+    
+            <button class="collapsible">Socials</button>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i> Instagram</a>
+                    </li>
+                    <li><a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa-brands fa-square-facebook"></i>
+                        Facebook</a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa-brands fa-square-youtube"></i> Youtube</a></li>
+                    <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i>Linkedin</a></li>
+                </ul>
+            </div>
         </div>
     </footer>
+    <script src="/js/header-footer.js"></script>
     
     
 </body>
