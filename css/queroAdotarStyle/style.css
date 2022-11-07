@@ -3,42 +3,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;1,500&display=swap');
 
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none; color: inherit;
+    text-decoration: none;
+    color: inherit;
 
 }
 
 /* Início do cabeçalho e menu */
 
-header{
+header {
     background-color: #ACD5DE;
     width: 100%;
     padding: 0px;
     padding-top: 5px;
 }
-.logo{
+
+.logo {
     height: 50px;
     width: 55px;
     margin-top: -40px;
     margin-left: 20px;
 }
-.iconUser{
+
+.iconUser {
     padding-left: 0px;
     margin-right: 30px;
     margin-left: 15px;
 }
-.login{
+
+.login {
     color: #1A4E8D;
 }
-.IconUser{
+
+.IconUser {
     color: #1A4E8D;
     margin-top: -2px;
     margin-left: 5px;
 }
-#textoLogo{
+
+#textoLogo {
     text-align: center;
     color: #1A4E8D;
     padding-left: 15px;
@@ -46,13 +52,16 @@ header{
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
 }
-.mobile-menu-icon{
+
+.mobile-menu-icon {
     display: none;
 }
-.mobile-menu{
+
+.mobile-menu {
     display: none;
 }
-.checkbtn{
+
+.checkbtn {
     float: right;
     font-size: 200px;
     color: #1A4E8D;
@@ -61,34 +70,43 @@ header{
     cursor: pointer;
     display: none;
 }
-#check{
+
+#check {
     display: none;
 }
-.tituloPrincipal{
+
+.tituloPrincipal {
     margin-left: 90px;
     margin-top: 30px;
 }
-ul{
+
+ul {
     list-style-type: none;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-nav{
+
+nav {
     align-items: center;
     background-color: #ACD5DE;
     justify-content: space-between;
-    padding:  20px 20px;
-    margin-top: 20px;;
+    padding: 20px 20px;
+    margin-top: 20px;
+    ;
 
 }
-nav div h1{
+
+nav div h1 {
     color: #1A4E8D;
 }
-nav,ul{
+
+nav,
+ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 li {
     color: #1A4E8D;
     text-decoration: none;
@@ -97,7 +115,8 @@ li {
     margin-top: -10px;
 
 }
-li:hover{
+
+li:hover {
     color: #ffff;
     border-radius: 70px;
     border-top: 5px;
@@ -105,10 +124,12 @@ li:hover{
     background-size: auto;
     background-color: #1A4E8D;
 }
-.container{
+
+.container {
     display: flex;
 }
-.logo{
+
+.logo {
     display: flex;
 }
 
@@ -118,7 +139,8 @@ li:hover{
 body {
     background-color: white;
 }
-h1{
+
+h1 {
     font-family: 'Poppins', sans-serif;
     margin-left: 400px;
     margin-top: 50px;
@@ -126,7 +148,8 @@ h1{
     font-size: 25px;
     color: #1A4E8D
 }
-b{
+
+b {
     font-family: 'Poppins', sans-serif;
     color: #2968b4;
     font-weight: bold;
@@ -145,7 +168,8 @@ b{
     font-size: 20px;
     border-radius: 70px;
 }
-.kd-filter-button{
+
+.kd-filter-button {
     margin-left: 1000px;
     margin-bottom: 60px;
     margin-top: -50px;
@@ -174,32 +198,39 @@ section {
     padding-bottom: 20px;
 }
 
-.img1{
+.img1 {
     margin-top: 20px;
     display: inline-block;
     margin-left: 60px;
     float: left;
     padding-right: 20px;
 }
-.img2{
+
+.img2 {
     margin-top: 20px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img3{
+
+.img3 {
     margin-top: 20px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img4{
+
+.img4 {
     padding-top: 20px;
     padding-bottom: 30px;
 }
-.titleImg1,.titleImg2,.titleImg3,.titleImg4{
+
+.titleImg1,
+.titleImg2,
+.titleImg3,
+.titleImg4 {
     display: inline-block;
-    margin-left: 120px;
+    margin-left: 100px;
     padding-right: 65px;
     text-align: center;
     font-size: 15px;
@@ -207,26 +238,30 @@ section {
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
-.img5{
+
+.img5 {
     padding-top: 40px;
     display: inline-block;
     margin-left: 60px;
     float: left;
     padding-right: 20px;
 }
-.img6{
+
+.img6 {
     padding-top: 40px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img7{
+
+.img7 {
     padding-top: 40px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img8{
+
+.img8 {
     padding-top: 40px;
     padding-bottom: 30px;
 }
@@ -234,18 +269,20 @@ section {
 
 /*Footer*/
 
-.container-footer{
+.container-footer {
     width: 100%;
     height: 350px;
     padding-top: 201px;
     background-color: white;
 }
-.logoFooter{
+
+.logoFooter {
     margin-left: 40px;
     padding-top: 30px;
     display: inline-block;
 }
-.box-left{
+
+.box-left {
     display: inline-block;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -258,16 +295,19 @@ section {
     margin-right: 0;
     padding-right: 0;
 }
-.tituloEndereco{
+
+.tituloEndereco {
     color: #1a4e8d;
     margin-top: 25px;
     font-size: 15px;
 }
-.textoEndereco{
+
+.textoEndereco {
     margin-left: 0;
     margin-top: 20px;
 }
-.box-middle{
+
+.box-middle {
     display: inline-block;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -279,11 +319,13 @@ section {
     float: left;
     margin-right: 0;
 }
-.box-middle p{
+
+.box-middle p {
     margin-top: 20px;
     margin-left: 0;
 }
-.box-right{
+
+.box-right {
     display: inline-block;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
@@ -296,11 +338,13 @@ section {
     margin-right: 0;
     margin-left: 300px;
 }
-.box-right p{
+
+.box-right p {
     margin-top: 20px;
     margin-left: 0;
 }
-.integrantes{
+
+.integrantes {
     padding-top: 200px;
     margin-left: 350px;
     padding-bottom: 50px;
@@ -313,62 +357,74 @@ section {
 /* CSS versão responsiva*/
 
 @media (max-width: 950px) {
-    nav ul{
+    nav ul {
         display: none;
     }
 }
-@media (max-width: 900px){
-    .containerLogo{
+
+@media (max-width: 900px) {
+    .containerLogo {
         height: 20px;
         width: 20px;
         margin-top: 20px;
     }
-    .IconUser{
+
+    .IconUser {
         display: none;
     }
-    li:hover{
+
+    li:hover {
         background-color: #1A4E8D;
     }
-    h1{
+
+    h1 {
         font-size: 20px;
         margin-left: -20px;
         padding-bottom: 20px;
         text-align: center;
     }
-    body h2{
+
+    body h2 {
         font-size: 30px;
         margin-left: 25px;
         margin-right: 25px;
         text-align: left;
 
     }
-    body h3{
+
+    body h3 {
         margin-left: 30px;
         font-size: 20px;
         margin-right: 0;
     }
-    body p{
+
+    body p {
         margin-left: 30px;
         font-size: 15px;
         margin-right: 100px;
     }
-    .BodyImg{
+
+    .BodyImg {
         height: 500px;
         width: 400px;
         margin-top: 30px;
         margin-left: 50px;
         padding-bottom: 30px;
     }
-    .container{
+
+    .container {
         display: inline-block;
     }
-    button{
+
+    button {
         margin-bottom: 50px;
     }
-    .logo2Img{
-        margin-left: 100px ;
+
+    .logo2Img {
+        margin-left: 100px;
     }
-    footer{
+
+    footer {
         display: none;
     }
 }
@@ -380,44 +436,63 @@ section {
         float: bottom;
     }
 }
+
 @media screen and (max-width: 768px) {
-    .kd-filter-button{
+    .kd-filter-button {
         display: flex;
         flex-wrap: wrap;
         margin-left: 200px;
         margin-top: 20px;
     }
-    h1{
+
+    h1 {
         margin-left: 5px;
         margin-bottom: 20px;
     }
 }
-@media (max-width: 950px){
-    .blocoTitle1,.blocoTitle2,.blocoTitle3{
+
+@media (max-width: 950px) {
+
+    .blocoTitle1,
+    .blocoTitle2,
+    .blocoTitle3 {
         display: none;
     }
 }
+
 @media screen and (max-width: 850px) {
-    .img1,.img2,.img3,.img4,.img5,.img6,.img7,.img8{
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8 {
         align-content: center;
         margin-left: 100px;
     }
 
 }
+
 @media (max-width: 1100px) {
-    #textoLogo{
+    #textoLogo {
         display: none;
     }
 }
-@media (max-width: 858px){
-    #textoLogo{
+
+@media (max-width: 858px) {
+    #textoLogo {
         display: flex;
         float: right;
     }
-    ul:hover{
+
+    ul:hover {
         text-color: #1a658d;
     }
-    ul{
+
+    ul {
         display: flex;
         padding-top: 80px;
         position: absolute;
@@ -429,20 +504,24 @@ section {
         line-height: 30px;
         font-size: 20px;
     }
-    .mobile-menu-icon{
+
+    .mobile-menu-icon {
         display: flex;
     }
-    .mobile-menu-icon button{
+
+    .mobile-menu-icon button {
         background-color: transparent;
         color: #1A4E8D;
         margin-left: 400px;
         margin-top: -70px;
         cursor: pointer;
     }
-    .open{
+
+    .open {
         display: block;
     }
-    .mobile-menu ul{
+
+    .mobile-menu ul {
         text-align: center;
         background-color: #ACD5DE;
         margin-left: 260px;
@@ -450,7 +529,8 @@ section {
         display: flex;
         padding-bottom: 0;
     }
-    .mobile-menu ul li{
+
+    .mobile-menu ul li {
         background: transparent;
     }
 }
