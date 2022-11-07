@@ -8,7 +8,9 @@
     --text_color: rgb(26, 78, 141);
 }
 
-/*Body */
+/* Body */
+
+/* Todo animal de rua merece um lar. Adote */
 
 
 body {
@@ -19,20 +21,18 @@ body {
 }
 
 h1 {
+    font-family: sans-serif;
     color: #1A4E8D;
+    text-align: left;
     text-shadow: 2px 2px 5px white;
-    font-size: 100px;
+    font-size: 80px;
     position: absolute;
     top: 8px;
     left: 16px;
-}
-
-h2,
-h3 {
-    color: #1A4E8D;
-    font-size: 100px;
-    text-align: center;
-
+    display: block;
+    padding-bottom: 500px;
+    margin-left: 40px;
+    margin-top: 10px;
 }
 
 .flex-imagemDestaque {
@@ -48,9 +48,10 @@ h3 {
 .flex-imagemDestaque .btn {
     position: absolute;
     top: 45%;
-    left: 5%;
+    left: 1%;
+    margin-left: 520px;
+    margin-top: -185px;
 }
-
 
 .flex-containerPets {
     display: flex;
@@ -58,9 +59,7 @@ h3 {
     background-color: #ACD5DE;
     justify-content: center;
     align-items: baseline;
-   
 }
-
 
 .flex-containerPets>div {
     display: flex;
@@ -72,79 +71,118 @@ h3 {
     font-size: 25px;
     color: #1A4E8D;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-/*NOVOS PELUDOS*/
 
-.novosPeludos{
+/* NOVOS PELUDOS */
+
+h2 {
+    color: #1A4E8D;
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.botao2 {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.novosPeludos {
     background-color: white;
+    padding-bottom: 100px;
 }
-.flex-containerPets > div {
+
+.flex-containerPets>div {
     background-color: White;
 }
+
 .flex-containerPets {
     background-color: white;
 
 }
-.container-body-images{
+
+.container-body-images {
     background-color: white;
 }
 
-.img1{
+.img1 {
     margin-top: 20px;
     display: inline-block;
     margin-left: 60px;
     float: left;
     padding-right: 20px;
 }
-.img2{
+
+.img2 {
     margin-top: 20px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img3{
+
+.img3 {
     margin-top: 20px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img4{
+
+.img4 {
     padding-top: 20px;
     padding-bottom: 30px;
 }
-.titleImg1,.titleImg2,.titleImg3,.titleImg4{
+
+.titleImg1,
+.titleImg2,
+.titleImg3,
+.titleImg4 {
     display: inline-block;
     margin-left: 120px;
-    padding-right: 65px;
+    padding-right: 52px;
     text-align: center;
     font-size: 15px;
     color: #1A4E8D;
     font-weight: bold;
     font-family: 'Poppins', sans-serif;
 }
-.img5{
+
+.img5 {
     padding-top: 40px;
     display: inline-block;
     margin-left: 60px;
     float: left;
     padding-right: 20px;
 }
-.img6{
+
+.img6 {
     padding-top: 40px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img7{
+
+.img7 {
     padding-top: 40px;
     display: inline-block;
     float: left;
     padding-right: 20px;
 }
-.img8{
+
+.img8 {
     padding-top: 40px;
     padding-bottom: 30px;
+}
+
+/* O que as suas novas familias disseram */
+h3 {
+    color: #1A4E8D;
+    font-size: 75px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 40px;
+    margin-bottom: 30px;
 }
 
 section div {
@@ -163,6 +201,11 @@ section div p img {
     display: block;
     width: 35%;
     margin-bottom: 10px;
+}
+
+.botao3 {
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 button,
@@ -185,7 +228,6 @@ input {
     font-family: Arial, Helvetica, sans-serif;
     position: 107.906 x 28793;
     margin: 0 auto;
-
 }
 
 button:hover {
@@ -197,25 +239,28 @@ button:hover {
     color: white;
 }
 
+/* INSTAGRAM */
 
-
-.nossoInstagram{
+.nossoInstagram {
     width: 100%;
     height: 1000px;
     margin: 0;
     background-color: #1A4E8D;
     border-radius: 0%;
 }
-h4{
+
+h4 {
     justify-content: center;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 85px;
-    margin-left: 425px;
     padding-top: 40px;
+    margin-bottom: 50px;
 }
 
-.botaoSeguir button,input {
+.botaoSeguir button,
+input {
 
     all: unset;
     cursor: pointer;
@@ -223,7 +268,7 @@ h4{
     display: block;
     width: 200px;
     height: 20px;
-    border-radius:600px;
+    border-radius: 600px;
     margin-right: 100px;
     margin-left: 80px;
     padding: 10px;
@@ -235,20 +280,19 @@ h4{
     margin-bottom: 300px;
     font-family: Arial, Helvetica, sans-serif;
     position: 107.906 x 28793;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
-
-.fotosInstagram{
+.fotosInstagram {
     padding-top: 70px;
     display: flex;
     flex-wrap: wrap;
     background-color: transparent;
     justify-content: center;
     align-items: baseline;
-   
 }
-.fotosInstagram >div {
+
+.fotosInstagram>div {
     margin: 0%;
     padding: 60px;
     display: flex;
@@ -256,49 +300,4 @@ h4{
     width: 350px;
     text-align: center;
     line-height: 30px;
-}
-
-
-
-/*Footer*/
-
-footer {
-    width: auto;
-    background-color: white;
-}
-
-.rodape {
-    display: inline-block;
-    margin-left: 130px;
-    margin-bottom: 100px;
-    padding: -20px;
-    font-size: 25px;
-}
-
-.ContainerImg {
-    margin-top: 50px;
-    max-height: 40px;
-    width: 40px;
-    display: inline-block;
-    margin-left: 350px;
-    margin-bottom: 50px;
-    height: 50px;
-    margin: 0 auto;
-}
-
-.rodape:hover {
-    background: none;
-    font-size: 25px;
-}
-
-.endereco {
-    margin-left: 0px;
-    font-size: 25px;
-}
-
-#rodape2 {
-    font-family: "Work Sans", serif;
-    color: #1A4E8D;
-    font-size: 25px;
-    text-align: center;
 }
