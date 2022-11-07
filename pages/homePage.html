@@ -6,38 +6,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/homePage/style.css">
-    <link rel="stylesheet" href="/css/header-footer/header-footerCss.css">
+    <link rel="stylesheet" href="/css/homePage/header-footer-Home.css">
     <link rel="icon" type="image/x-icon" href="/images/header-footer/favicon.ico">
+
     <title> Home | Pet Friend</title>
 </head>
 
 <body>
 
     <header>
-        <header>
-            <div id="cabecalho">
-                <div id="logo">
-                    <img id="img-logo" src="/images/header-footer/logo.png" alt="Logo">
-                    <a href="#"> PetFriend </a>
-                </div>
-                <div id="links">
-                    <nav>
-                        <ul class="main_menu">
-                            <li><a href="/pages/homePage.html">Home</a></li>
-                            <li><a href="/pages/quemSomos.html">Quem somos</a></li>
-                            <li><a href="/pages/cadastroPet.html">Cadastrar Pet</a></li>
-                            <li><a href="/pages/queroAdotar.html">Quero adotar</a></li>
-                            <li><a href="/pages/contatopage.html">Contato</a></li>
-                        </ul>
-                    </nav>
+        <nav>
+            <div class="containerLogo">
+                <div class="logo"><img alt="Logomarca" src="/images/quemSomosImg/logo.png">
+                    <a id="textoLogo" href="/pages/homePage.html">PetFriend</a>
                 </div>
             </div>
-        </header>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="/pages/homePage.html">Home</a></li>
+                    <li><a href="/pages/quemSomos.html">Quem somos</a></li>
+                    <li><a href="/pages/cadastroPet.html">Cadastrar Pet</a></li>
+                    <li><a href="/pages/queroAdotar.html">Quero Adotar</a></li>
+                    <li><a href="/pages/contatopage.html">Contato</a></li>
+                    <li class="login"><a href="#">Login</a></li><svg xmlns="http://www.w3.org/2000/svg" width="30"
+                        height="30" fill="currentColor" class="IconUser" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                    </svg>
+                </ul>
+            </div>
+        </nav>
+        <div class="mobile-menu-icon">
+            <button onclick="menuShow()"><i onclick="menuShow()" class="gg-menu"></i></button>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="/pages/homePage.html">Home</a></li>
+                <li><a href="/pages/quemSomos.html">Quem somos</a></li>
+                <li><a href="/pages/cadastroPet.html">Cadastrar Pet</a></li>
+                <li><a href="/pages/queroAdotar.html">Quero Adotar</a></li>
+                <li><a href="/pages/contatopage.html">Contato</a></li>
+                <li class="login"><a href="#">Login</a></li>
+            </ul>
+        </div>
     </header>
 
-
     <div class="flex-imagemDestaque">
-        <h1>Todo animal de rua merece um lar. Adote! </h1>
+        <h1>Todo animal de rua<br> merece um lar. Adote! </h1>
 
 
         <button class="btn" onclick="location.href = 'cadastroPet.html';">Adotar agora</button>
@@ -47,6 +64,7 @@
             <img class="flex-CachorroeGato" alt="Imagem de destaque. Ela contém um cachorro e um gato"
                 src="/images/homePage/destaquecachorroegato.png">
         </div>
+
     </div>
 
     <div class="novosPeludos">
@@ -72,7 +90,7 @@
                 </div>
                 <div class="titleImg2">
                     <p>Will</p>
-                    <p>Colorado - Belo Horizonte</p>
+                    <p>BH - Belo Horizonte</p>
                 </div>
                 <div class="titleImg3">
                     <p>Maria Firmina</p>
@@ -80,7 +98,7 @@
                 </div>
                 <div class="titleImg4">
                     <p>Afonso</p>
-                    <p>Colorado - Contagem</p>
+                    <p>BH - Belo Horizonte</p>
                 </div>
             </div>
 
@@ -109,8 +127,8 @@
             </div>
         </div>
 
-        <div>
-            <button class="btn" onclick="location.href = 'cadastroPet.html';">Quero adotar</button>
+        <div class="botao2">
+            <button class="btn2" onclick="location.href = 'cadastroPet.html';">Quero adotar</button>
         </div>
 
     </div>
@@ -129,7 +147,7 @@
             <p><img src="/images/homePage/gatosnomuro.jpg" alt="">"Sempre quis ter uma gata de estimação e hoje
                 adotei
                 3 de uma
-                só vez, muito feliz por ter ealizado esse sonho de infância"</p>
+                só vez, muito feliz por ter realizado esse sonho de infância"</p>
             <h5>Antônio Santos, Betim-MG</h5>
         </div>
         <div>
@@ -142,7 +160,7 @@
 
     </section>
 
-    <div>
+    <div class="botao3">
         <button class="btn" onclick="location.href = 'cadastroPet.html';">Quero adotar</button>
     </div>
 
@@ -158,41 +176,38 @@
             <div><img src="/images/homePage/cachorroimg3.jpg" width="300px" height="250px" alt=""></div>
             <div><img src="/images/homePage/cachorroimg5.jpg" width="300px" height="250px" alt=""></div>
             <div><img src="/images/homePage/Gatoimg1.jpg" width="300px" height="250px" alt=""></div>
-            <div><img src="/images/homePage/gatoimg2.jpg" width="300px" height="250px" alt=""></div>
-            <div><img src="/images/homePage/cachorroimg8.jpg" width="300px" height="250px" alt=""></div>
         </div>
 
     </div>
 
-
     <footer>
-        <div>
-            <ul class="rodape">
-                <div class="ContainerImg">
-                    <img alt="Logomarca" src="/images/quemSomosImg/logo2.png"><br><br><br><br><br>
-                </div>
-                <li>Endereco</li>
-                <p class="endereco">R.Dom José Gaspar, 500 -<br> Coração Eucarístico, Belo<br> Horizonte - MG, 30535-901
-                </p>
-            </ul>
-            <ul class="rodape">
-                <li>Contato</li>
-                <li>petfriend.br@gmail.com</li>
-                <li>+55 (31) 97339-8362</li>
-                <li>+55 (31) 99129-2177</li>
-            </ul>
-            <ul class="rodape">
-                <li>Redes Sociais</li>
-                <li>Instagram</li>
-                <li>Facebook</li>
-                <li>Youtube</li>
-            </ul>
+        <div class="container-footer">
+            <div class="logoFooter">
+                <img src="/images/quemSomosImg/logo2.png" alt="logomarca" width="220px" height="150px">
+            </div>
+            <div class="box-left">
+                <h4 class="tituloEndereco">Endereço</h4>
+                <p class="textoEndereco">R.Dom José Gaspar, 500 -<br> Coração Eucarístico, Belo<br> Horizonte _MG,
+                    30535-901</p>
+            </div>
+            <div class="box-middle">
+                <h5 class="tituloContato">Contato</h5>
+                <p>petfriend.br@gmail.com</p>
+                <p>+55 (31) 97339-8362</p>
+                <p>+55 (31) 99129-2177</p>
+            </div>
+            <div class="box-right">
+                <h5 class="tituloRedesSociais">Redes Sociais</h5>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Youtube</p>
+            </div>
+            <div class="integrantes">
+                <p>© 2022 by Grupo 5 - Eduardo Costa, Jonathan Patrick, Carlos Gabriel , Lucas Dias , Pedro Miranda.</p>
+            </div>
         </div>
     </footer>
 
-    <div id="rodape2">
-        <p>© 2022 by Grupo 5 - Eduardo Costa, Jonathan Patrick, Carlos Gabriel , Lucas Dias , Pedro Miranda.</p>
-    </div>
 </body>
 
 </html>
