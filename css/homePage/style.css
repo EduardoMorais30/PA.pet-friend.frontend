@@ -301,3 +301,19 @@ input {
     text-align: center;
     line-height: 30px;
 }
+
+
+/* Politica de Privacidade*/
+
+.politicaDePrivacidade{
+    width: 100%;
+    height: 400px;
+    background-color: #ACD5DE;
+}
+h6{
+    font-size: 75px;
+    text-align: center;
+    color: #1A4E8D;
+    padding-top: 100px;
+    padding-bottom: 45px;
+}
