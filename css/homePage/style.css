@@ -21,30 +21,58 @@ body {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Work Sans', sans-serif;
     color: #1A4E8D;
-    text-align: left;
-    text-shadow: 2px 2px 5px white;
-    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 100px;
     position: absolute;
+    padding-top: 50px;
+    padding-bottom :50px ;
     top: 8px;
     left: 16px;
     display: block;
-    padding-bottom: 500px;
-    margin-left: 40px;
+    margin-left: 180px;
     margin-top: 10px;
+}
+.slider{
+    margin: 0;
+    width: 1350px;
+    height: 750px;
+    margin-bottom:30px ;
+    overflow: hidden;
+    
+}
+.slider input{
+    display: none;
+}
+.manual-navigation{
+    position: absolute;
+    width: 1350px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #1A4E8D;
+    padding: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.box-img-principal{
+    margin-top: 100px;
+    padding-bottom: 30px;
+}
+.flex-CachoroeGato { 
+    margin-left: 100px;   
 }
 
 .flex-imagemDestaque {
+    padding-top: 250px;
     position: relative;
     display: flex;
     justify-content: center;
 }
-
-.flex-CachoroeGato {
-    display: flex;
-}
-
 .flex-imagemDestaque .btn {
     position: absolute;
     top: 45%;
@@ -81,7 +109,7 @@ h2 {
     text-align: center;
     font-family: sans-serif;
     padding-top: 40px;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
 }
 
 .botao2 {
@@ -183,8 +211,49 @@ h3 {
     font-family: sans-serif;
     padding-top: 40px;
     margin-bottom: 30px;
+    margin-left: 50px;
+
 }
 
+/* Div */
+.box-one{
+    height: 500px;
+}
+.box-two{ 
+    height:350px;
+}
+.box-three{
+    height:400px ;
+}
+
+/* Imagens Div*/
+.box-img-one{
+    border-radius: 50% ;
+    margin-bottom:70px ;
+}
+.box-img-two{
+    border-radius: 50% ;
+    margin-bottom:70px ;
+}
+.box-img-three{
+    border-radius: 50% ;
+    margin-bottom:70px ;
+}
+.dep-names{
+    font-size:20px ;
+    text-align: center;
+    margin-top: 50px;
+    color: #1A4E8D;
+
+}
+section p{
+    font-size:20px ;
+    text-align:justify ;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #1A4E8D;
+    font-weight: inherit;
+}
 section div {
     display: inline-block;
     width: calc(33% - 16px);
@@ -285,6 +354,7 @@ input {
 
 .fotosInstagram {
     padding-top: 70px;
+    margin-left:0 ;
     display: flex;
     flex-wrap: wrap;
     background-color: transparent;
@@ -294,12 +364,13 @@ input {
 
 .fotosInstagram>div {
     margin: 0%;
-    padding: 60px;
+    padding: 20px;
     display: flex;
     background-color: transparent;
     width: 350px;
     text-align: center;
     line-height: 30px;
+    margin-bottom: 100px;
 }
 
 
