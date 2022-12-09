@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quero adotar | Pet Friend</title>
-    <link rel="stylesheet" href="/css/queroAdotarStyle/style.css" />
+    <link rel="stylesheet" href="/css/queroAdotarStyle/style.css">
     <link href='https://css.gg/menu.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="/images/header-footer/favicon.ico">
     <script src="/js/queroAdotar.js"></script>
@@ -58,8 +58,8 @@
         <section>
             <label>
                 <b>Todas as espécies</b><br>
-                <select name="speed" id="speed">
-                    <option desable>Selecione</option>
+                <select name="especie" id="especie">
+                    <option>Selecione</option>
                     <option>Cães</option>
                     <option>Gatos</option>
                     <option>Aves</option>
@@ -67,16 +67,16 @@
             </label>
             <label>
                 <b>Selecione o gênero</b><br>
-                <select name="files" id="files">
-                    <option desable> Selecione </option>
-                    <option value="HD">Macho</option>
-                    <option value="Full HD">Fêmea</option>
+                <select name="genero" id="genero">
+                    <option> Selecione </option>
+                    <option>Macho</option>
+                    <option>Fêmea</option>
                 </select>
             </label>
             <label>
                 <b> Selecione o porte </b><br>
-                <select name="number" id="number">
-                    <option desable> Selecione </option>
+                <select name="porte" id="porte">
+                    <option> Selecione </option>
                     <option>Muito pequeno</option>
                     <option>Pequeno</option>
                     <option>Médio</option>
@@ -86,19 +86,18 @@
             </label>
             <label>
                 <b> Selecione o estado </b><br>
-                <select name="salutation">
-                    <option desable selected>Selecione</option>
-                    <option value="DF">DF</option>
-                    <option value="MG">MG</option>
-                    <option value="SP">SP</option>
-                    <option value="" RJ>RJ</option>
-
+                <select name="estado" id="estado">
+                    <option selected>Selecione</option>
+                    <option>DF</option>
+                    <option>MG</option>
+                    <option>SP</option>
+                    <option>RJ</option>
                 </select>
             </label>
             <label>
                 <b> Selecione a cidade </b><br>
-                <select name="salutation" id="salutation">
-                    <option desable selected>Selecione</option>
+                <select name="cidade" id="cidade">
+                    <option selected>Selecione</option>
                     <option>Belo Horizonte</option>
                     <option>Rio de Janeiro</option>
                     <option>São Paulo</option>
@@ -107,81 +106,143 @@
 
                 </select>
             </label>
-        </section><button class="kd-filter-button" id="button1">Filtrar</button>
+        </section><button class="kd-filter-button" id="button1" type="button">Filtrar</button>
     </form>
-    <div class="container-body-images">
-        <div class="img1"><img src="/images/queroAdotarImg/bodyImg1.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img2"><img src="/images/queroAdotarImg/bodyImg2.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img3"><img src="/images/queroAdotarImg/bodyImg3.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img4"><img src="/images/queroAdotarImg/bodyImg4.jpeg" width="300" height="200px" alt=""></div>
 
-        <div class="blocoTitle1">
-            <div class="titleImg1">
-                <p>Alice</p>
-                <p>BH - Belo Horizonte</p>
-            </div>
-            <div class="titleImg2">
-                <p>Dieguinho</p>
-                <p>BH - Belo Horizonte</p>
-            </div>
-            <div class="titleImg3">
-                <p>Kagu</p>
-                <p>BH - Belo Horizonte</p>
-            </div>
-            <div class="titleImg4">
-                <p>Varus</p>
-                <p>BH - Belo Horizonte</p>
+    <div class="pet-container">
+        <div class="pet-block" id="pet-1">
+            <img src="/images/queroAdotarImg/bodyImg1.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Alice</p>
+                <p class="pet-info-local">Local: DF - Brasília</p>
+                <p class="pet-info-porte">Porte: Grande</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Macho</p>
             </div>
         </div>
 
-        <div class="img5"><img src="/images/queroAdotarImg/bodyImg5.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img6"><img src="/images/queroAdotarImg/bodyImg6.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img7"><img src="/images/queroAdotarImg/bodyImg7.jpeg" width="300" height="200px" alt=""></div>
-        <div class="img8"><img src="/images/queroAdotarImg/bodyImg8.jpeg" width="300" height="200px" alt=""></div>
+        <div class="pet-block" id="pet-2">
+            <img src="/images/queroAdotarImg/bodyImg2.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Dieguinho</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Médio</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Macho</p>
+            </div>
+        </div>
 
-        <div class="blocoTitle2">
-            <div class="titleImg1">
-                <p>Drogo</p>
-                <p>BH - Belo Horizonte</p>
+        <div class="pet-block" id="pet-3">
+            <img src="/images/queroAdotarImg/bodyImg3.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Kagu</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Grande</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Fêmea</p>
             </div>
-            <div class="titleImg2">
-                <p>Milu</p>
-                <p>BH - Belo Horizonte</p>
+        </div>
+
+        <div class="pet-block" id="pet-4">
+            <img src="/images/queroAdotarImg/bodyImg4.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Varus</p>
+                <p class="pet-info-local">Local: RJ - Rio de Janeiro</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Fêmea</p>
             </div>
-            <div class="titleImg3">
-                <p>Cass</p>
-                <p>BH - Belo Horizonte</p>
+        </div>
+
+        <div class="pet-block" id="pet-5">
+            <img src="/images/queroAdotarImg/bodyImg5.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Drogo</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Gato</p>
+                <p class="pet-info-genero"> Gênero: Fêmea</p>
             </div>
-            <div class="titleImg4">
-                <p>Junin</p>
-                <p>BH - Belo Horizonte</p>
+        </div>
+
+        <div class="pet-block" id="pet-6">
+            <img src="/images/queroAdotarImg/bodyImg6.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Milu</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Gato</p>
+                <p class="pet-info-genero"> Gênero: Fêmea</p>
+            </div>
+        </div>
+
+        <div class="pet-block" id="pet-7">
+            <img src="/images/queroAdotarImg/bodyImg7.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Cass</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Gato</p>
+                <p class="pet-info-genero"> Gênero: Macho</p>
+            </div>
+        </div>
+
+        <div class="pet-block" id="pet-8">
+            <img src="/images/queroAdotarImg/bodyImg8.jpeg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Junin</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Gato</p>
+                <p class="pet-info-genero"> Gênero: Macho</p>
+            </div>
+        </div>
+
+        <div class="pet-block" id="pet-9">
+            <img src="/images/homePage/cachorroimg2.jpg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Mel</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Médio</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Fêmea</p>
+            </div>
+        </div>
+
+        <div class="pet-block" id="pet-10">
+            <img src="/images/homePage/cachorroimg5.jpg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Thor</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Macho</p>
+            </div>
+        </div>
+
+        <div class="pet-block" id="pet-11">
+            <img src="/images/homePage/cachorroimg7.jpg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Meyle</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Médio</p>
+                <p class="pet-info-especie">Espécie: Cachorro</p>
+                <p class="pet-info-genero"> Gênero: Fêmea</p>
+            </div>
+        </div>
+
+        <div class="pet-block" id="pet-12">
+            <img src="/images/homePage/Gatoimg1.jpg" width="300" height="200px" alt="">
+            <div class="pet-info">
+                <p class="pet-info-nome">Nome: Lucao</p>
+                <p class="pet-info-local">Local: BH - Belo Horizonte</p>
+                <p class="pet-info-porte">Porte: Pequeno</p>
+                <p class="pet-info-especie">Espécie: Gato</p>
+                <p class="pet-info-genero"> Gênero: Macho</p>
             </div>
         </div>
     </div>
 
-    <div class="img5"><img src="/images/homePage/cachorroimg2.jpg" width="300" height="200px" alt=""></div>
-    <div class="img6"><img src="/images/homePage/cachorroimg5.jpg" width="300" height="200px" alt=""></div>
-    <div class="img7"><img src="/images/homePage/cachorroimg7.jpg" width="300" height="200px" alt=""></div>
-    <div class="img8"><img src="/images/homePage/Gatoimg1.jpg" width="300" height="200px" alt=""></div>
-
-    <div class="blocoTitle3">
-        <div class="titleImg1">
-            <p>Mel</p>
-            <p>BH - Belo Horizonte</p>
-        </div>
-        <div class="titleImg2">
-            <p>Thor</p>
-            <p>BH - Belo Horizonte</p>
-        </div>
-        <div class="titleImg3">
-            <p>Meyle</p>
-            <p>BH - Belo Horizonte</p>
-        </div>
-        <div class="titleImg4">
-            <p>Lucao</p>
-            <p>BH - Belo Horizonte</p>
-        </div>
-    </div>
 </body>
 
 <footer>
@@ -211,5 +272,5 @@
         </div>
     </div>
 </footer>
-
+<script src="/js/filtro-quero-adotar.js"></script>
 </html>

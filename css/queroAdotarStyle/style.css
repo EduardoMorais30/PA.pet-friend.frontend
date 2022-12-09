@@ -145,8 +145,11 @@ h1 {
     margin-left: 400px;
     margin-top: 50px;
     padding: 50px 50px;
-    font-size: 25px;
-    color: #1A4E8D
+    font-size: 55px;
+    color: #1A4E8D;
+    line-height: normal;
+    letter-spacing: -0.02em;
+
 }
 
 b {
@@ -533,4 +536,33 @@ section {
     .mobile-menu ul li {
         background: transparent;
     }
+}
+
+body .pet-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: 100%;
+}
+
+body .pet-block{
+    flex: initial;
+    max-width: 300px;
+    margin: 1%;
+    /*align-items: center;*/
+    /*justify-content: flex-start;*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .pet-block p {
+    font-family: 'Poppins', sans-serif;
+    color: #1A4E8D;
+}
+
+body .pet-block p:first-of-type{
+    font-weight: bold;
+    font-size: 20px;
 }

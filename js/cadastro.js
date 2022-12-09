@@ -13,10 +13,17 @@ publicar.addEventListener("click", function () {
     let descricao = document.getElementById("descricao").value;
     let telefone = document.getElementById("telefone").value;
     let doc = document.getElementById("enviar").value;
-    let termos = document.getElementById("label_termos").value;
 
-    console.log(nome, idade, genero, adulto_filhote, tipo_pet, porte, estado, cidade, descricao, telefone, doc, termos);
-    // Upload para database
+    if (document.getElementById("termos").checked){
+        let data = `${nome},${idade},${genero},${adulto_filhote},${tipo_pet},${porte},${estado},${cidade},${descricao},${telefone},${doc},termos_aceito`
+        // Upload para database
+        console.log(data);
+    }
+
+    else{
+        console.log("É necessario aceitar os termos.")
+    }
+
 })
 
 
