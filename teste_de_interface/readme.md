@@ -37,3 +37,28 @@ IMPORTANTE ! É NECESSÁRIO TER O FIREFOX INSTALADO PARA A EXECUÇÃO DO TESTE.
 5. É necessário que o Node.js esteja instalado na máquina. Estamos usando a versão v18.12.1 .
 6. Dentro da pasta do projeto (PA.PET-FRIEND.FRONTEND) execute o comando: 'npm install' 
 7. E agora se todos os passos acima tiverem sido realizados execute o comando 'npm run wdio' .
+
+O retorno do teste no firefox foi: 
+
+```
+ "spec" Reporter:
+------------------------------------------------------------------
+[firefox 107.0.1 MAC #0-0] Running: firefox (v107.0.1) on MAC
+[firefox 107.0.1 MAC #0-0] Session ID: 5439917a-804f-4a23-9c07-abf6ad326c87
+[firefox 107.0.1 MAC #0-0]
+[firefox 107.0.1 MAC #0-0] » /teste_de_interface/tests/queroAdotar.test.mjs
+[firefox 107.0.1 MAC #0-0] Quero adotar teste
+[firefox 107.0.1 MAC #0-0]    ✖ Validar o cadastro do quero adotar
+[firefox 107.0.1 MAC #0-0]
+[firefox 107.0.1 MAC #0-0] 1 failing (3.3s)
+[firefox 107.0.1 MAC #0-0]
+[firefox 107.0.1 MAC #0-0] 1) Quero adotar teste Validar o cadastro do quero adotar
+[firefox 107.0.1 MAC #0-0] Element <button id="button1" class="kd-filter-button" type="button"> is not clickable at point (1075,576) because another element <button id="button2" class="kd-filter-button" type="button"> obscures it
+[firefox 107.0.1 MAC #0-0] element click intercepted: Element <button id="button1" class="kd-filter-button" type="button"> is not clickable at point (1075,576) because another element <button id="button2" class="kd-filter-button" type="button"> obscures it
+[firefox 107.0.1 MAC #0-0]     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+
+Spec Files:      0 passed, 1 failed, 1 total (100% completed) in 00:00:25 
+```
+O erro é ocasionado no navegador firefox porque o botão filtrar é sobreposto pelo botão limpar filtro gerando um bug na tela. 
+
