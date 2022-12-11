@@ -1,0 +1,25 @@
+{
+  "name": "pa.pet-friend.frontend",
+  "version": "1.0.0",
+  "description": "## Padroes de COMMIT",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMorais30/PA.pet-friend.frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMorais30/PA.pet-friend.frontend/issues"
+  },
+  "homepage": "https://github.com/EduardoMorais30/PA.pet-friend.frontend#readme",
+  "dependencies": {
+    "mocha": "^10.2.0"
+  }
+}
