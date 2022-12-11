@@ -162,7 +162,7 @@ b {
     height: 600px;
 }
 
-#button1 {
+#button1, #button2 {
     font-family: 'Poppins', sans-serif;
     color: white;
     width: 150px;
@@ -174,9 +174,8 @@ b {
 
 .kd-filter-button {
     margin-left: 1000px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     margin-top: -50px;
-
 }
 
 select {
