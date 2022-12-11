@@ -7,9 +7,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    text-decoration: none;
-    color: inherit;
-
+    text-decoration: none !important;
 }
 
 /* HEADER  -------------------------------------------------------------*/
@@ -78,6 +76,10 @@ header {
     margin-left: 90px;
     margin-top: 30px;
 }
+.menu{
+    text-decoration: none;
+    color: inherit;
+}
 
 ul {
     list-style-type: none;
@@ -91,12 +93,14 @@ nav {
     justify-content: space-between;
     padding: 20px 20px;
     margin-top: 20px;
-    ;
+;
 
 }
 
 nav div h1 {
     color: #1A4E8D;
+    text-decoration: none;
+    color: inherit;
 }
 
 nav,
@@ -104,9 +108,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    text-decoration: none;
+    color: inherit;
 }
 
 li {
+    text-decoration: none !important;
+    color: inherit !important;
     color: #1A4E8D;
     text-decoration: none;
     font-weight: bold;
@@ -226,7 +234,9 @@ li:hover {
 
 }
 
-/* CSS versão responsiva*/
+
+
+/* CSS versão responsiva----------------------------------------------------------------------------------------------------------*/
 
 @media (max-width: 950px) {
     nav ul {
@@ -242,7 +252,7 @@ li:hover {
     }
 
     .IconUser {
-        display: none;
+        display: flex;
     }
 
     li:hover {
@@ -325,25 +335,103 @@ li:hover {
 
 @media (max-width: 950px) {
 
-    .blocoTitle1,
-    .blocoTitle2,
-    .blocoTitle3 {
+    .blocoTitle1, .blocoTitle2, .blocoTitle3 {
         display: none;
+    }
+    .flex-containerPets{
+        display: none;
+    }
+
+    h2{
+        margin-left: 110px;
+    }
+
+    .container-body-images{
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+    .container-body-images .img1{
+        margin: 0;
+    }
+    .img5{
+        margin: 0;
+        padding: 0;
+
+    }
+    .img6{
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .img7{
+        margin: 0;
+        padding: 0;
+    }
+    .img3,.img4,.img7,.img6 {
+        padding-bottom: 20px;
+    }
+    .btn2{
+        font-size: 15px;
+        padding-top: 20px;
+        padding: 15px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-top: -50px;
+        margin-bottom: -50px;
+    }
+    .novosPel{
+        font-weight: bold;
+        margin-left: 60px;
+        margin-bottom: -50px;
+    }
+    .Depoimentos{
+        font-weight: bold;
+    }
+    section{
+        display: flex;
+    }
+    section p{
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+        padding: 5px;
+        font-weight: bold;
+    }
+    .dep-names{
+        font-size: 8px;
+    }
+    .box-img-one,.box-img-two, .box-img-three{
+        width: 100px;
+        margin-bottom: 20px;
+    }
+    .sigaPetFriend{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: -20px;
+    }
+    .nossoInstagram{
+        height: 1850px;
+    }
+    .politicaDePrivacidade{
+        height: 500px;
     }
 }
 
+
 @media screen and (max-width: 850px) {
 
-    .img1,
-    .img2,
-    .img3,
-    .img4,
-    .img5,
-    .img6,
-    .img7,
-    .img8 {
+    .container-body-images {
         align-content: center;
-        margin-left: 100px;
+        padding: 20px;
+    }
+    .novosPeludos{
+        font-size: 30px;
+        font-weight: bold;
+        align-items: center;
+        margin-left: 0px;
+    }
+    h2{
+        margin-left: 110px;
     }
 
 }
@@ -358,6 +446,9 @@ li:hover {
     #textoLogo {
         display: flex;
         float: right;
+    }
+    h2{
+        margin-left: 110px;
     }
 
     ul:hover {
@@ -404,5 +495,67 @@ li:hover {
 
     .mobile-menu ul li {
         background: transparent;
+    }
+
+
+
+
+    /*slider  responsive */
+
+    @media(max-width: 768px) {
+
+
+        #mainSlider .carousel-inner, #mainSlider .carousel-item {
+            height: auto;
+        }
+
+        #mainSlider .carousel-caption h2 {
+            font-size: 28px;
+        }
+
+        #mainSlider .carousel-caption p {
+            font-size: 12px;
+            margin-bottom: 40px;
+        }
+
+        .carousel-caption {
+            left: 10%;
+            right: 10%;
+        }
+        .container-fluid h5{
+            font-size: 35px;
+        }
+        .main-btn{
+            display: none;
+        }
+
+
+        @media(max-width: 425px) {
+
+
+            #mainSlider {
+                margin-top: 90px;
+            }
+
+            #mainSlider .carousel-caption {
+                top: 5%;
+            }
+
+            #mainSlider .carousel-caption h2 {
+                font-size: 18px;
+                margin-bottom: 40px;
+            }
+
+            #mainSlider .carousel-caption p {
+                display: none;
+            }
+
+            .carousel-caption .main-btn {
+
+                font-size: 14px;
+            }
+        }
+
+
     }
 }

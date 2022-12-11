@@ -6,12 +6,20 @@
 * {
     --header_color: #ACD5DE;
     --text_color: rgb(26, 78, 141);
+    text-decoration: none !important;
+
+
 }
 
 /* Body */
 
 /* Todo animal de rua merece um lar. Adote */
-
+a {
+    color: #1A4E8D;
+}
+a:hover {
+    color: #FFF
+}
 
 body {
     margin: 0px;
@@ -35,36 +43,84 @@ h1 {
     margin-left: 180px;
     margin-top: 10px;
 }
-.slider{
-    margin: 0;
-    width: 1350px;
-    height: 750px;
-    margin-bottom:30px ;
-    overflow: hidden;
-    
+
+/*Slider*/
+
+.container-fluid h5{
+    font-size: 100px;
+    color: #3EC1D5;
+    font-family: 'Work Sans', sans-serif;
+
 }
-.slider input{
+
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+.main-btn {
+    background-color: #3EC1D5   ;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #3EC1D5;
+}
+
+.carousel-indicators .active {
+    background-color: #65DAF9;
+}
+.carousel-indicators{
     display: none;
 }
-.manual-navigation{
-    position: absolute;
-    width: 1350px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+
+/*Fim Slider*/
+
+
+
+.mobile-menu {
+    display: none;
 }
-.manual-btn{
-    border: 2px solid #1A4E8D;
-    padding: 30px;
-    border-radius: 10px;
-    cursor: pointer;
+.mobile-menu-icon {
+    display: none;
 }
+
+
 .box-img-principal{
     margin-top: 100px;
     padding-bottom: 30px;
 }
-.flex-CachoroeGato { 
-    margin-left: 100px;   
+.flex-CachoroeGato {
+    margin-left: 100px;
 }
 
 .flex-imagemDestaque {
@@ -120,6 +176,7 @@ h2 {
 .novosPeludos {
     background-color: white;
     padding-bottom: 100px;
+    font-family: sans-serif;
 }
 
 .flex-containerPets>div {
@@ -206,7 +263,7 @@ h2 {
 /* O que as suas novas familias disseram */
 h3 {
     color: #1A4E8D;
-    font-size: 75px;
+    font-size: 60px;
     text-align: center;
     font-family: sans-serif;
     padding-top: 40px;
@@ -214,16 +271,19 @@ h3 {
     margin-left: 50px;
 
 }
+.dep-names{
+    font-weight: bold;
+}
 
 /* Div */
 .box-one{
     height: 500px;
 }
-.box-two{ 
-    height:350px;
+.box-two{
+    height:400px;
 }
 .box-three{
-    height:400px ;
+    height:450px ;
 }
 
 /* Imagens Div*/
@@ -388,3 +448,11 @@ h6{
     padding-top: 100px;
     padding-bottom: 45px;
 }
+
+/* Footer */
+.container-footer{
+    text-color:#1A4E8D; ;
+}
+
+
+
